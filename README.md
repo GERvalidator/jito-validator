@@ -1,7 +1,5 @@
 ## Autoclock Validator
 * A fast and straightforward way to spin up a Solana validator running the Jito client. 
-* The Autoclock Validator Ansible script has been designed and tested on c3.large [Latitude](https://www.latitude.sh/pricing) servers running Ubuntu thus far. Other OS and machine/disk configurations are untested yet, but feel free to fork or submit PRs to support additional infra.
-* C3.large machines have 2 disks. One of these is mounted to / and the second one needs to be supplied in the defaults.
 
 ### Follow these steps:
 

@@ -1,4 +1,4 @@
-## Autoclock Validator
+## Jito Validator
 * A fast and straightforward way to spin up a Solana validator running the Jito client. 
 
 ### Follow these steps:

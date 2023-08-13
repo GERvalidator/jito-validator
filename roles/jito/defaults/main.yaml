@@ -20,4 +20,4 @@ metrics: true
 org_name: "jito-foundation"
 repo_name: "jito-solana"
 repo_dir: "jito-solana"
-repo_version: "v1.13.6-jito"
+repo_version: "v1.14.22-jito"

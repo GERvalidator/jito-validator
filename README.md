@@ -17,7 +17,7 @@ https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.
 ```
 
 #### 2) Create a hosts.yaml file in the root location using hosts.example.yaml as template
-* https://github.com/Overclock-Validator/autoclock-validator/blob/master/hosts.example.yaml
+* https://github.com/GERvalidator/jito-validator/blob/master/hosts.example.yaml
 * Edit hosts.yaml so that it points to your validator's IP address and needed ssh parameters
 
 #### 3) Edit and configure the Ansible command and run it
@@ -28,7 +28,7 @@ ansible-playbook setup.yaml -i hosts.yaml -e id_path=./keys/validator-keypair.js
 ```
 
 #### 4) Edit and configure the common main.yaml file 
-* https://github.com/overclock-validator/autoclock-validator/blob/master/roles/common/defaults/main.yaml
+* https://github.com/GERvalidator/jito-validator/blob/master/roles/common/defaults/main.yaml
 * Inside this file you will see (and may need to edit):
 ```
 ledger_disk: "nvme1n1"
@@ -39,7 +39,7 @@ swap_mb: 100000
 * By default, swap_mb is set to 100gb, but for validators it's not that helpful outside of preventing a crash. If your machine is swapping however, there are other issues that need to be solved anyway.
 
 #### 5) Edit and configure the jito main.yaml file
-* https://github.com/overclock-validator/autoclock-validator/blob/master/roles/jito/defaults/main.yaml
+* https://github.com/GERvalidator/jito-validator/blob/master/roles/jito/defaults/main.yaml
 * Inside this file you will see (and may need to edit):
 ```
 # 1. Supply a valid cluster
@@ -114,7 +114,6 @@ If you see the message above, then everything is working fine! gratz. You have a
 * [Jito Discord](https://discord.gg/jito)
 * [Jito Docs](https://jito.notion.site/Jito-Resources-76fac1863c23457198f46657b54d7a6a)
 * [Solana Discord](https://discord.gg/ZmYnApcbTj) (validator-support channel)
-* [Overclock Discord](https://discord.gg/M8KZh4Waz6) (autoclock channel)
 
 ### TODO
 * support different disk configurations
